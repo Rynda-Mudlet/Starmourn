@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<ScriptPackage>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Fury Events</name>
+			<packageName></packageName>
+			<script></script>
+			<eventHandlerList />
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Battleflow</name>
+				<packageName></packageName>
+				<script></script>
+				<eventHandlerList />
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>BFSymmetry</name>
+					<packageName></packageName>
+					<script>function BFSymmetry()
+
+symStrikeCount = symStrikeCount + 1
+
+end
+
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade gutrend']", "Gutrend")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade swiftcut']", "Swiftcut") </script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Gutrend</name>
+						<packageName></packageName>
+						<script>function Gutrend()
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade gutrend']", "Gutrend")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Swiftcut</name>
+						<packageName></packageName>
+						<script>function Swiftcut()
+
+
+
+end
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade swiftcut']", "Swiftcut") </script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>BFEmber</name>
+					<packageName></packageName>
+					<script>function BFEmber()
+
+emberStrikeCount = emberStrikeCount +1 
+
+end
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade assail']", "Assail")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sweep']", "Sweep")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade legspike']", "Legspike")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Legspike</name>
+						<packageName></packageName>
+						<script>function Legspike()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade legspike']", "Legspike")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Sweep</name>
+						<packageName></packageName>
+						<script>function Sweep()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sweep']", "Sweep")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Assail</name>
+						<packageName></packageName>
+						<script>function Assail()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade assail']", "Assail")
+</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>BFFlare</name>
+					<packageName></packageName>
+					<script>function BFFlare()
+
+flareStrikeCount  = flareStrikeCount  + 1
+
+end
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade drive']", "BFFlare")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade wound']", "BFFlare")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sear']", "BFFlare")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Sear</name>
+						<packageName></packageName>
+						<script>function Sear()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sear']", "Sear")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Wound</name>
+						<packageName></packageName>
+						<script>function Wound()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade wound']", "Wound")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Drive</name>
+						<packageName></packageName>
+						<script>function Drive()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade drive']", "Drive")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>BFInferno</name>
+					<packageName></packageName>
+					<script>function BFInferno()
+
+infStrikeCount = infStrikeCount + 1
+
+end
+
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sunder']", "BFInferno")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade rend']", "BFInferno")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade cleave']", "BFInferno")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade pummel']", "BFInferno")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade concuss']", "BFInferno")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Concuss</name>
+						<packageName></packageName>
+						<script>function Concuss()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade concuss']", "Concuss")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Pummel</name>
+						<packageName></packageName>
+						<script>function Pummel()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['bladep ummel']", "Pummel")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Cleave</name>
+						<packageName></packageName>
+						<script>function Cleave()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade cleave']", "Cleave")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Rend</name>
+						<packageName></packageName>
+						<script>function Rend()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade rend']", "Rend")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Sunder</name>
+						<packageName></packageName>
+						<script>function Sunder()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sunder']", "Sunder")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>BFSpark</name>
+					<packageName></packageName>
+					<script>function BFSpark()
+
+sparkStrikeCount = sparkStrikeCount + 1
+
+end
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade blitz']", "BFSpark")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sting']", "BFSpark")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade flamebound']", "BFSpark")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade salvo']", "BFSpark")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade hew']", "BFSpark")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Hew</name>
+						<packageName></packageName>
+						<script>function Hew()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade hew']", "Hew")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Salvo</name>
+						<packageName></packageName>
+						<script>function Salvo()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade salvo']", "Salvo")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Flamebound</name>
+						<packageName></packageName>
+						<script>function Flamebound()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade flamebound']", "Flamebound")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Sting</name>
+						<packageName></packageName>
+						<script>function Sting()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade sting']", "Sting")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Blitz</name>
+						<packageName></packageName>
+						<script>function Blitz()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade blitz']", "Blitz")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>BFEruption</name>
+					<packageName></packageName>
+					<script>function BFEruption()
+
+erupStrikeCount = erupStrikeCount + 1
+
+end
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade bloodburn']", "BFEruption")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade bloodsinge']", "BFEruption")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade hypertension']", "BFEruption")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade rupture']", "BFEruption")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade asymmetry']", "BFEruption")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Asymmetry</name>
+						<packageName></packageName>
+						<script>function Asymmetry()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade asymmetry']", "Asymmetry")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Rupture</name>
+						<packageName></packageName>
+						<script>function Rupture()
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade rupture']", "Rupture")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Hypertension</name>
+						<packageName></packageName>
+						<script>function Hypertension()
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade hypertension']", "Hypertension")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Bloodsinge</name>
+						<packageName></packageName>
+						<script>function Bloodsinge()
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade bloodsinge']", "Bloodsinge")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Bloodburn</name>
+						<packageName></packageName>
+						<script>function Bloodburn()
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade bloodburn']", "Bloodburn")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>BFBlaze</name>
+					<packageName></packageName>
+					<script>function BFBlaze()
+
+blazeStrikeCount = blazeStrikeCount + 1
+
+end
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade heartrend']", "BFBlaze")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade raindown']", "BFBlaze")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade barrage']", "BFBlaze")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade cripple']", "BFBlaze")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade bombard']", "BFBlaze")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Bombard</name>
+						<packageName></packageName>
+						<script>function Bombard()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade bombard']", "Bombard")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Cripple</name>
+						<packageName></packageName>
+						<script>function Cripple()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade cripple']", "Cripple")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Barrage</name>
+						<packageName></packageName>
+						<script>function Barrage()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade barrage']", "Barrage")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Raindown</name>
+						<packageName></packageName>
+						<script>function Raindown()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade raindown']", "Raindown")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Heartrend</name>
+						<packageName></packageName>
+						<script>function Heartrend()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['blade heartrend']", "Heartrend")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+			</ScriptGroup>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Rage</name>
+				<packageName></packageName>
+				<script></script>
+				<eventHandlerList />
+				<Script isActive="yes" isFolder="no">
+					<name>Unstoppable</name>
+					<packageName></packageName>
+					<script>function Unstoppable()
+echo('start timers')
+tempTimer(5,[[echo('\n5')]])
+tempTimer(10,[[echo('\n10')]])
+tempTimer(15,[[echo('\n15')]])
+tempTimer(20,[[echo('\n20')]])
+tempTimer(25,[[echo('\n25')]])
+tempTimer(30,[[echo('\n30')]])
+
+end
+
+registerAnonymousEventHandler("Rynda.Unstoppable", "Unstoppable") </script>
+					<eventHandlerList />
+				</Script>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>RSymmetry</name>
+					<packageName></packageName>
+					<script>function RSymmetry()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage deflect", "RSymmetry")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage strike", "RSymmetry")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Strike</name>
+						<packageName></packageName>
+						<script>function Strike()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage strike", "Strike")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Deflect</name>
+						<packageName></packageName>
+						<script>function Deflect()
+
+
+
+end
+
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage deflect", "Deflect")
+</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>REmber</name>
+					<packageName></packageName>
+					<script>function REmber()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage stun", "REmber")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage upperlash", "REmber")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage resistant", "REmber")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Resistant</name>
+						<packageName></packageName>
+						<script>function Resistant()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage resistant", "Resistant")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Upperlash</name>
+						<packageName></packageName>
+						<script>function Upperlash()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage upperlash", "Upperlash")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Stun</name>
+						<packageName></packageName>
+						<script>function Stun()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage stun", "Stun")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>RFlare</name>
+					<packageName></packageName>
+					<script>function RFlare()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage berserk", "RFlare")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage flyinglash", "RFlare")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage reel", "RFlare")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Reel</name>
+						<packageName></packageName>
+						<script>function Reel()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage reel", "Reel")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Flyinglash</name>
+						<packageName></packageName>
+						<script>function Flyinglash()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage flyinglash", "Flyinglash")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Berserk</name>
+						<packageName></packageName>
+						<script>function Berserk()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage berserk", "Berserk")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>RInferno</name>
+					<packageName></packageName>
+					<script>function RInferno()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage proptoss", "RInferno")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage aftershock", "RInferno")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage daze", "RInferno")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Daze</name>
+						<packageName></packageName>
+						<script>function Daze()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage daze", "Daze")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Aftershock</name>
+						<packageName></packageName>
+						<script>function Aftershock()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage aftershock", "Aftershock")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Proptoss</name>
+						<packageName></packageName>
+						<script>function Proptoss()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage proptoss", "Proptoss")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>RSpark</name>
+					<packageName></packageName>
+					<script>function RSpark()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage sandblast", "RSpark")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage topple", "RSpark")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage grapple", "RSpark")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Grapple</name>
+						<packageName></packageName>
+						<script>function Grapple()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage grapple", "Grapple")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Topple</name>
+						<packageName></packageName>
+						<script>function Topple()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage topple", "Topple")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Sandblast</name>
+						<packageName></packageName>
+						<script>function Sandblast()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage sandblast", "Sandblast")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>REruption</name>
+					<packageName></packageName>
+					<script>function REruption()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage deepstrike", "REruption")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage airleap", "REruption")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage flyingcut", "REruption")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Flyingcut</name>
+						<packageName></packageName>
+						<script>function Flyingcut()
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage flyingcut']", "Flyingcut")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Airleap</name>
+						<packageName></packageName>
+						<script>function Airleap()
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage airleap", "Airleap")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Deepstrike</name>
+						<packageName></packageName>
+						<script>function Deepstrike()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage deepstrike']", "Deepstrike")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>RBlaze</name>
+					<packageName></packageName>
+					<script>function RBlaze()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage expose", "RBlaze")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage airflip", "RBlaze")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage rend", "RBlaze")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Rend</name>
+						<packageName></packageName>
+						<script>function Rend()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage rend", "Rend")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Airflip</name>
+						<packageName></packageName>
+						<script>function Airflip()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage airflip", "Airflip")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Expose</name>
+						<packageName></packageName>
+						<script>function Expose()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage expose", "Expose")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>RUnstoppable</name>
+					<packageName></packageName>
+					<script>function RUnstoppable()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage overpower", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage throw", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage position", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage twist", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage overwhelm", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage shatter", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage judgement", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage quake", "RUnstoppable")
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage slice", "RUnstoppable")</script>
+					<eventHandlerList />
+					<Script isActive="yes" isFolder="no">
+						<name>Slice</name>
+						<packageName></packageName>
+						<script>function Slice()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage slice", "Slice")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Quake</name>
+						<packageName></packageName>
+						<script>function Quake()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage quake", "Quake")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Judgement</name>
+						<packageName></packageName>
+						<script>function Judgement()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage judgement", "Judgement")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Shatter</name>
+						<packageName></packageName>
+						<script>function Shatter()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage shatter", "Shatter")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Overwhelm</name>
+						<packageName></packageName>
+						<script>function Overwhelm()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage overwhelm", "Overwhelm")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Twist</name>
+						<packageName></packageName>
+						<script>function Twist()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage twist", "Twist")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Position</name>
+						<packageName></packageName>
+						<script>function Position()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage position", "Position")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Throw</name>
+						<packageName></packageName>
+						<script>function Throw()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage throw", "Throw")</script>
+						<eventHandlerList />
+					</Script>
+					<Script isActive="yes" isFolder="no">
+						<name>Overpower</name>
+						<packageName></packageName>
+						<script>function Overpower()
+
+
+
+end
+registerAnonymousEventHandler("gmcp.IRE.CombatMessage['rage overpower", "Overpower")</script>
+						<eventHandlerList />
+					</Script>
+				</ScriptGroup>
+			</ScriptGroup>
+			<ScriptGroup isActive="yes" isFolder="yes">
+				<name>Fulmenation</name>
+				<packageName></packageName>
+				<script></script>
+				<eventHandlerList />
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>Offense</name>
+					<packageName></packageName>
+					<script></script>
+					<eventHandlerList />
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>Defense</name>
+					<packageName></packageName>
+					<script></script>
+					<eventHandlerList />
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>Utility</name>
+					<packageName></packageName>
+					<script></script>
+					<eventHandlerList />
+				</ScriptGroup>
+				<ScriptGroup isActive="yes" isFolder="yes">
+					<name>Special</name>
+					<packageName></packageName>
+					<script></script>
+					<eventHandlerList />
+				</ScriptGroup>
+			</ScriptGroup>
+		</ScriptGroup>
+	</ScriptPackage>
+</MudletPackage>
